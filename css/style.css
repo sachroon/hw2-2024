@@ -18,11 +18,10 @@ h2{
 
 p{
     font-size: 24px;
-    padding: 10px;
-    text-align: top-left;
+    padding: 10px 0px 0px 10px;
 }
 
-img{
+img {
     width: 250px;
     display: block;
     margin: auto;
@@ -30,7 +29,7 @@ img{
 
 }
 
-div{
+div {
     min-height: 125px;
     padding: 20px;
     border: 3px solid #ffffff;
@@ -39,23 +38,25 @@ div{
 .introduction{
     border-radius: 15px;
     margin-top: 15px;
-    line-height: 2em;
+    line-height: 2;
 
 }
 .red{
     background-color:#ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff;
 }
 
 .blue{
     background-color:#0000ff;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border: none;
+    border-right: 5px solid #ffffff;
+    border-top: 2px solid #ffffff;
 }
 
 .blue h2, .blue p {
@@ -66,8 +67,9 @@ div{
     background-color:#fff000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff;
 }
 
 .yellow p {
@@ -78,8 +80,9 @@ div{
     background-color:#008500;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border: none;
+    border-right: 5px solid #ffffff;
+    border-top: 2px solid #ffffff;
 }
 
 footer{
